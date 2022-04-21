@@ -19,4 +19,4 @@ gem "webrick"
 gem "jemoji"
 gem "kramdown-parser-gfm"
 
-gem "minimal-mistakes-jekyll"
+#gem "minimal-mistakes-jekyll"
