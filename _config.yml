@@ -3,7 +3,7 @@ logo: /assets/img/logo.png
 email: tibadeux@gmail.com
 description: Página personal y materiales de clase.
 show_downloads: false
-google_analytics: UA-108144808-1
+google_analytics: G-44KN499PN0
 color-scheme: auto
 plugins:
   - jekyll-sitemap
