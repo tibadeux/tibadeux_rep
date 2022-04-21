@@ -23,39 +23,30 @@
     {% include head-custom.html %}
   </head>
   <body>
-    <div class="masthead" style="position: relative; border-bottom: 1px solid #f2f3f3; z-index: 20; box-sizing: border-box; display: block;">
-      <div class="masthead__inner-wrap" style="clear: both; margin-left: auto; margin-right: auto; padding: 1em; max-width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;">
-        <div class="masthead__menu">
-          <nav id="site-nav" class="greedy-nav">
-            
-            <a class="site-title" href="/minimal-mistakes/">
-              Minimal Mistakes
-              <span class="site-subtitle">A Jekyll theme</span>
-            </a>
-            <ul class="visible-links"><li class="masthead__menu-item">
-                  <a href="/minimal-mistakes/docs/quick-start-guide/">Quick-Start Guide</a>
-                </li><li class="masthead__menu-item">
-                  <a href="/minimal-mistakes/about/">About</a>
-                </li><li class="masthead__menu-item">
-                  <a href="/minimal-mistakes/year-archive/">Sample Posts</a>
-                </li><li class="masthead__menu-item">
-                  <a href="/minimal-mistakes/collection-archive/">Sample Collections</a>
-                </li></ul>
-            
-            <button class="search__toggle" type="button">
-              <span class="visually-hidden">Toggle search</span>
-              <i class="fas fa-search"></i>
-            </button>
-            
-            <button class="greedy-nav__toggle" type="button" count="1" style="">
-              <span class="visually-hidden">Toggle menu</span>
-              <div class="navicon"></div>
-            </button>
-            <ul class="hidden-links hidden"><li class="masthead__menu-item">
-                  <a href="/minimal-mistakes/terms/">Terms &amp; Privacy Policy</a>
-                </li></ul>
-          </nav>
-        </div>
+    <div class="container">
+      <div class="menu">
+        <ul>
+          <li>Home</li>
+          <li>Blog</li>
+          <li>Services <i class="fa fa-angle-down"></i>
+            <ul>
+              <li>Graphic Design</li>
+              <li>Website Design </li>
+              <li>Python Programming</li>
+              <li>PHP Programming</li>
+            </ul>
+          </li>
+          <li>Tutorials <i class="fa fa-angle-down"></i>
+            <ul>
+              <li>CSS <span>12 Available</span></li>
+              <li>HTML <span>9 Available</span></li>
+              <li>Jade<span>3 Available</span></li>
+              <li>Javascript<span>21 Available</span></li>
+              <li>Design<span>37 Available</span></li>
+            </ul>
+          </li>
+          <li>Contact</li>
+        </ul>
       </div>
     </div>
     <div class="wrapper">
