@@ -1,29 +1,6 @@
 # The Minimalist theme
 
-*Minimalist is a Jekyll theme, inspired by the [Minimalist](https://github.com/BDHU/minimalist) theme. You can [preview the theme to see what it looks like](http://bdhu.github.io/minimalist), or even [use it today](#usage).*
-
-![Demo of Minimalist](https://raw.githubusercontent.com/BDHU/minimalist/main/minimalist.png)
-
 ## Usage
-
-To use the Minimalist theme:
-
-1. Add the following line to your Gemfile
-
-```ruby
-gem "jekyll-remote-theme"
-```
-
-then run `bundle install` to install the plugin.
-
-2. Add the following to your site's `_config.yml` to activate the plugin:
-
-```yml
-plugins:
-  - jekyll-remote-theme
-```
-
-Note: If you are using a Jekyll version less than 3.5.0, use the `gems` key instead of `plugins`.
 
 3. Add the following line to your `config.yml` to use the theme
 
