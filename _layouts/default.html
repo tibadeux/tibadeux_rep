@@ -36,56 +36,43 @@
       </div>
     </div>
       
-    <div class="container-fluid">
-      <h2>container-fluid</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sed perferendis quas, nam minima repellendus facilis quaerat optio, eos et doloremque beatae tempora, sequi ullam cumque nisi possimus earum qui?</p>
-  </div>
   <div class="container">
-    <div class="row">
-      <div class="row mb-3">
-        <div class="col-8">.col-4>
-          <div class="sidebar">
-            <header>
-              {% if site.logo %}
-                <img class="img-circle" src="{{site.logo | relative_url}}" alt="Logo">
-              {% endif %}
-
+    <div class="row mb-3">
+       <div class="col-8">.col-4>
+         <div class="sidebar">
+           <header>
+             {% if site.logo %}
+               <img class="img-circle" src="{{site.logo | relative_url}}" alt="Logo">
+             {% endif %}
               {% if site.blank_title %}
-                <h1>{{ site.title | default: site.github.repository_name }}</h1>
-              {% else %}
-                <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-              {% endif %}
-
+               <h1>{{ site.title | default: site.github.repository_name }}</h1>
+             {% else %}
+               <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+             {% endif %}
               {% if site.email %}
-                <p class="addr"><i class="fa-regular fa-envelope"></i>&nbsp;{{ site.email }}</p>
-              {% endif %}
-
+               <p class="addr"><i class="fa-regular fa-envelope"></i>&nbsp;{{ site.email }}</p>
+             {% endif %}
               <p>{{ site.description | default: site.github.project_tagline }}</p>
-
               {% include sidebar.html %}
-
             </header>
-
             {% include links-mobile.html %}
-
             <div class="sidebar-footer">
-              {%- include footer.html -%}
-            </div>
-          </div>
-        </div>
-        <div class="col-4">.col-8>
-          <section>
-
+             {%- include footer.html -%}
+           </div>
+         </div>
+       </div>
+       <div class="col-4">.col-8>
+         <section>
             {{ content }}
-  
-            </section>
-            <footer>
-            {%- include footer.html -%}
-            </footer>
-        </div>
-      </div>
-    </div>
-  </div>
+ 
+           </section>
+           <footer>
+           {%- include footer.html -%}
+           </footer>
+       </div>
+     </div>
+   </div>
+ </div>
 
 
 
