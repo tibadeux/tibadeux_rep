@@ -24,24 +24,45 @@
     {% include head-custom.html %}
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="menu">
-        <ul>
-          <li style="display: inline-block; padding: 15px; position: relative;">Home</li>
-          <li style="display: inline-block; padding: 15px; position: relative;">Blog</li>
-          <li style="display: inline-block; padding: 15px; position: relative;">Services</li>
-          <li style="display: inline-block; padding: 15px; position: relative;">Tutorials</li>
-          <li style="display: inline-block; padding: 15px; position: relative;">Contact</li>
-        </ul>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./404.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./_pages/quimica.html">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </nav>
 
     <div class="container">
-      <div class="row">
-        <div class="col-8">
+      <div class="row" style="margin-top: 40px;">
+        <div class="col-xl-2">
           <header>
             {% if site.logo %}
-            <img class="img-circle" style="width:30%; height:30%;" src="{{site.logo | relative_url}}" alt="Logo">
+            <img class="img-circle" style="width:40%; height:40%;" src="{{site.logo | relative_url}}" alt="Logo">
             {% endif %}
             {% if site.blank_title %}
             <h1>{{ site.title | default: site.github.repository_name }}</h1>
@@ -59,7 +80,7 @@
             {%- include footer.html -%}
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-sm-8">
           <section>
             {{ content }}
   
