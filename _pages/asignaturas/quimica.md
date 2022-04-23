@@ -46,3 +46,10 @@
 6. Leyes de los gases ideales
 
 ## 6. Reacción química
+
+1. Representación de las reacciones químicas. Simbología
+2. Tipos de ecuaciones químicas: iónicas y moleculares
+3. Operaciones con las ecuaciones químicas
+4. Criterios de clasificación de reacciones: clasificación analítica (comportamiento químico), clasificación termodinámica, clasificación por la naturaleza de la reacción (síntesis, descomposición, sustitución simple y metátesis)
+5. Balanceo de ecuaciones. Balanceo por inspección. Concepto de oxidación, reducción, oxidante y reductor
+6. Balanceo por el método de ion electrón
