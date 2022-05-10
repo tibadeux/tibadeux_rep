@@ -1,3 +1,6 @@
+---
+layout: default
+--- 
 # Química 1
 
 # Temario
